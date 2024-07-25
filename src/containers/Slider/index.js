@@ -45,8 +45,8 @@ const Slider = () => {
                 key={`${event.id}`}
                 type="radio"
                 name="radio-button"
-                checked={index === radioIdx} // modif de idx par index
-                onChange={() => setIndex(radioIdx)} // Ajout de OnChange pour le défilement des boutons radio
+                checked={index === radioIdx} // modif de idx par index pr défilement des boutons
+                onChange={() => setIndex(radioIdx)} // Selection des boutons
                 />
               ))}
             </div>
